@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="app">
+    <!-- <div id="app">
         {{message}}
     </div>
     <script>
@@ -18,6 +18,19 @@
                 message: 'Hello Vue!'
             }
             })
+    </script> -->
+    <script>
+       class Read{
+           constructor(name){
+            this.name = name;
+           }
+           set(){
+            console.log(this.name)
+           }
+       }
+        let p = new Read('su')
+        p.set();
+
     </script>
 
     
